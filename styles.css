@@ -1,4 +1,8 @@
-h1 {
+header {
 font-family: 'Abril Fatface', cursive;
 font-weight: 400;
+}
+
+header h2 {
+    text-align: center;
 }

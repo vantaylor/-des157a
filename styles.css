@@ -1,11 +1,13 @@
 body {
     padding: 20px;
     margin: auto;
+
 }
 
 header {
     font-family: 'Unbounded', cursive;
     font-weight: 700;
+    
 }
 
 header h2 {
@@ -21,4 +23,10 @@ main {
 
 h3 {
     text-transform: uppercase;
+}
+
+section {
+    display: flex;
+    flex: 3;
+
 }

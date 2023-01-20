@@ -1,8 +1,6 @@
 body {
     padding: 20px;
     margin: auto;
-    font-family: 'Martel Sans', sans-serif;
-    font-weight: 400;
 }
 
 header {
@@ -16,4 +14,11 @@ header h2 {
 
 main {
     padding: 20px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+h3 {
+    text-transform: uppercase;
 }

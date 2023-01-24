@@ -29,10 +29,12 @@ h2 {
 #banner {
     width: 1100px;
     height: 250px;
+    display: flex;
 }
 
 main {
     /*max-width: 1200px;*/
+    padding: 20px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -49,12 +51,20 @@ ul {
 }
 
 ul li {
-    height: 1.8em;
-    line-height: 1.8em;
+    height: 2em;
+    line-height: 2em;
     
 }
 
-a {
+ul li a {
     text-decoration: none;
     color: #ffffff;
+
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: #586A6A;
+    font-size: 18px;
+    transition: all 2s;
 }

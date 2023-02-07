@@ -12,23 +12,23 @@
     <h2>Open Console</h2>
 
     <script>
+    
+        var numDivide3 = "Fizz"; //numbers divisible by 3
+        var numDivide5 = "Buzz"; //numbers divisble y 5
 
-        var numDivide3 = "Fizz";
-        var numDivide5 = "Buzz";
-
-        for (var i=1; i<=100; i++) {
+        for (var i=1; i<=100; i++) { //prints numbers 1 to 100
             
 
-            if ((i % 3) == 0) {
-                 //c
+            if ((i % 3) == 0) { //if numbers are divisible by 3, it will print "Fizz" instead
+                 
                 console.log(numDivide3);
                 
             }
 
-            else if ((i % 5) == 0) {
+            else if ((i % 5) == 0) { //if numbers are divisble by 5, it will print "Buzz" instead
                 console.log(numDivide5);
             }
-            
+
             else {
                 console.log(i);
             }

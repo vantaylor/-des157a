@@ -19,7 +19,8 @@ input, label {
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
     font-size: 20px;
-    color: maroon;
+    /* color: maroon; */
+    margin-bottom: 1em;
 }
 
 input {

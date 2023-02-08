@@ -1,4 +1,5 @@
 body {
+    background-image: url(images/holly.png), url(images/gingerbread-man.png);
     background-color: blanchedalmond;
     padding: 20px;
 }

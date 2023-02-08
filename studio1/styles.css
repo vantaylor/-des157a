@@ -1,7 +1,7 @@
 body {
-    background-image: url(images/holly.png), url(images/gingerbread-man.png);
-    background-repeat: repeat-x, no-repeat;
-    background-position: bottom, right;
+    background-image: url(images/gingerbread-man.png), url(images/holly.png);
+    background-repeat: no-repeat, repeat;
+    background-position: right, bottom;
     background-color: blanchedalmond;
     padding: 20px;
 }

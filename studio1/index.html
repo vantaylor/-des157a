@@ -26,26 +26,37 @@
     </header>
 
     <main>
-        <form>
-            
-            <label for="adj-tree">Adjective</label>
-            <input type="text" id="adj-tree" required>
 
-            <label for="adj-tree">Another adjective</label>
-            <input type="text" id="adj-food" required>
+        <div>
+            <form>
+                
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
 
-            <label for="exclamation">Exclamation!</label>
-            <input type="text" id="exclamation" required>
+                <label for="adj-tree">Adjective</label>
+                <input type="text" id="adj-tree" required>
 
-            <label for="noun">Noun</label>
-            <input type="text" id="noun" required>
+                <label for="adj-tree">Another adjective</label>
+                <input type="text" id="adj-food" required>
 
-            <label for="verb">Verb</label>
-            <input type="text" id="verb" required>
+                <label for="exclamation">Exclamation!</label>
+                <input type="text" id="exclamation" required>
 
-            <input type="submit" name="submit" id="send-form" value="Send this form">
+                <label for="noun">Noun</label>
+                <input type="text" id="noun" required>
 
-        </form>
+                <label for="verb">Verb</label>
+                <input type="text" id="verb" required>
+
+                <input type="submit" name="submit" id="send-form" value="Open message">
+
+            </form>
+        </div>
     </main>
+
+    <section id="message" class="overlay hidden">
+        <p>Merry Christmas! I had the </p>
+        <button class="close">close</button>
+    </section>
 </body>
 </html>

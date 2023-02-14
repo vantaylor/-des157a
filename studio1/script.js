@@ -59,6 +59,15 @@
         }
         else {
             myText = `Merry Christmas ${name}! You'll never guess what happened! I snuck into Santa's Top Secret Workshop. It was ${adj1}! Now, I just need to find Santa. While I was exploring, I met ${petName}, the ${color} ${bodyPart} Reindeer. That ${adj2} reindeer almost alerted the Elves! ${exclamation} Luckily, I was able to calm ${petName} down with some cookies I nabbed from Mrs. Claus's kitchen. I found ${noun} in the Top Secret Workshop. I wish you came with me, then we can ${verb} together. Gotta go! I still need to find Santa. I'll keep you updated!`;
+            document.querySelector('#name').value;
+            document.querySelector('#adj1').value;
+            document.querySelector('#adj2').value;
+            document.querySelector('#petName').value;
+            document.querySelector('#color').value;
+            document.querySelector('#body').value;
+            document.querySelector('#exclamation').value;
+            document.querySelector('#noun').value;
+            document.querySelector('#verb').value;
         }
         
 

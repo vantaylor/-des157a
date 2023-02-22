@@ -75,3 +75,10 @@ p a {
     color: #C97C5D;
     font-weight: 600;
 }
+
+img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    padding-top: 2em;
+}

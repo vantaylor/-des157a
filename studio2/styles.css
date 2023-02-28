@@ -1,3 +1,14 @@
 body {
     background-color: cornsilk;
+    font-family: 'Cormorant Garamond', serif;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+header {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
 }

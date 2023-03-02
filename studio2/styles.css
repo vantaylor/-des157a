@@ -12,3 +12,13 @@ header {
     font-weight: 400;
     text-align: center;
 }
+
+main {
+	width: 30vw;
+	padding: 20px;
+}
+
+section {
+	height: 100vh;
+}
+

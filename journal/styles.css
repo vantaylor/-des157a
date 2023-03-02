@@ -83,6 +83,10 @@ img {
     padding-top: 2em;
 }
 
+#boba {
+    width: 80%;
+}
+
 figcaption {
     display: block;
     text-align: center;

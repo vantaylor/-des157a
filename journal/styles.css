@@ -79,6 +79,14 @@ p a {
 img {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 100%;
     padding-top: 2em;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 0.5em;
 }

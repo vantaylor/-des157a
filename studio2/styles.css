@@ -1,14 +1,13 @@
 body {
     background-color: cornsilk;
     font-family: 'Cormorant Garamond', serif;
-    margin: auto;
     padding: 20px;
     
 }
 
 header {
     font-family: 'Paytone One', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 400;
     text-align: center;
 }
@@ -22,3 +21,27 @@ section {
 	height: 100vh;
 }
 
+h2 {
+    font-family: 'Paytone One', sans-serif;
+}
+
+p {
+    line-height: 1.8em;
+    font-size: 20px;
+}
+
+figure {
+    display: block;
+    margin: 0;
+    width: 70vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+figure img {
+    position: absolute;
+    transition: all 4s ease-in;
+}

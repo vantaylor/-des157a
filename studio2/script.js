@@ -13,6 +13,13 @@
     resetPagePosition();
 
     window.addEventListener('scroll', function() {
-        pageTop = window.pageYOffset 
+        pageTop = window.pageYOffset + 300;
+        //console.log(pageTop);
+
+        //if the user is scrolling down the page
+        if (pageTop > postTops[counter]) {
+            counter++;
+            console.log(`scrolling down ${counter}`);
+        }
     })
 })();

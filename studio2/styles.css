@@ -33,7 +33,7 @@ p {
 figure {
     display: block;
     margin: 0;
-    width: 70vw;
+    width: 65vw;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -44,4 +44,26 @@ figure {
 figure img {
     position: absolute;
     transition: all 4s ease-in;
+}
+
+.sect1{
+    width: 147vh;
+    top: 0;;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sect2, .sect2, .sect3, .sect4, .sect5 {
+    width: 2364px;
+
+}
+
+.sect2 {
+    top: 0;
+    left: 0;
+}
+
+.sect3{
+    top: 0;
+    left: calc(-2364px + 65vw);
 }

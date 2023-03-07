@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: cornsilk;
     font-family: 'Cormorant Garamond', serif;
@@ -32,7 +37,7 @@ p {
 figure {
     display: block;
     margin: 0;
-    width: 65vw;
+    width: 70vw;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -45,24 +50,24 @@ figure img {
     transition: all 4s ease-in;
 }
 
-.sect1{
-    width: 147vh;
+.product1{
+    width: 133vh; /*133% ratio to height*/
     top: 0;;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.sect2, .sect2, .sect3, .sect4, .sect5 {
-    width: 2364px;
+.product2, .product3, .product4, .product5 {
+    width: 4032px;
 
 }
 
-.sect2 {
+.product2 {
     top: 0;
     left: 0;
 }
 
-.sect3{
+.product3{
     top: 0;
-    left: calc(-2364px + 65vw);
+    left: calc(-4032px + 70vw);
 }

@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #283044;
+    margin: auto;
+}
+
+header, main {
+    background-color: #EBF5EE;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #8b786d;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #8b786d;
+}
+
+footer {
+    text-align: center;
+    background: rgb(235,245,238);
+    background: linear-gradient(180deg, rgba(235,245,238,1) 0%, rgba(191,168,158,1) 52%, rgba(120,161,187,1) 100%);
+    padding: 20px;
+}

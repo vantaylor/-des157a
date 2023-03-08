@@ -21,5 +21,10 @@
             counter++;
             console.log(`scrolling down ${counter}`);
         }
+        //if the user is at the bottom and scrolls up the page
+        else if (counter > 1 && pageTop < postTops[counter -1]) {
+            counter--;
+            console.log(`scrolling up ${counter}`);
+        }
     })
 })();

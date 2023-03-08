@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: cornsilk;
     font-family: 'Cormorant Garamond', serif;
@@ -20,6 +19,9 @@ h1 {
 
 section {
 	height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
 }
 
 h2 {

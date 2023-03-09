@@ -61,32 +61,32 @@ figure img {
 .product4, 
 .product5,
 .product6 {
-    width: 3000px;
+    width: 4032px;
 
 }
 
 .product2 {
-    top: calc(-2250px + 150vh);
-    left: calc(-3000px + 120vw);
+    top: calc(-3024px + 170vh);
+    left: calc(-4032px + 150vw);
 }
 
 .product3{
-    top: calc(-2250px + 140vh);
-    left: calc(-3000px + 230vw);
+    top: calc(-3024px + 180vh);
+    left: calc(-4032px + 220vw);
 }
 
-.productt4 {
-	top: calc(-2250px + 100vh);
-    left: 0;
+.product4 {
+	top: calc(-3024px + 350vh);
+    left: calc(-4032px + 222vw);
 }
 
 .product5 {
-    top: calc(-2250px + 100vh);
-    left: calc(-3000px + 70vw);
+    top: calc(-3024px + 210vh);
+    left: calc(-4032px + 170vw);
 }
 
 .product6 {
-    top: 50%;
-    left: 50%;
+    top: -10%;
+    left: 150%;
     transform: translate(-50%, -50%);
 }

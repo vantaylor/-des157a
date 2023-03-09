@@ -19,9 +19,9 @@ h1 {
 
 section {
 	height: 100vh;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    justify-content: baseline; */
 }
 
 h2 {
@@ -46,17 +46,21 @@ figure {
 
 figure img {
     position: absolute;
-    transition: all 4s ease-in;
+    transition: all 4s ease;
 }
 
 .product1{
     width: 133vh; /*133% ratio to height*/
-    top: 0;;
-    left: 50%;
-    transform: translateX(-50%);
+	top:0;
+	left: 50%;
+	transform:translateX(-50%);
 }
 
-.product2, .product3, .product4, .product5 {
+.product2,
+.product3,
+.product4, 
+.product5,
+.product6 {
     width: 3000px;
 
 }
@@ -69,4 +73,20 @@ figure img {
 .product3{
     top: 0;
     left: calc(-3000px + 70vw);
+}
+
+.productt4 {
+	top: calc(-2250px + 100vh);
+    left: 0;
+}
+
+.product5 {
+    top: calc(-2250px + 100vh);
+    left: calc(-3000px + 70vw);
+}
+
+.product6 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

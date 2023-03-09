@@ -33,7 +33,7 @@ window.addEventListener('load', function () {
 		// when the section changes...
 		if (counter != prevCounter) {
 			// changes the class name on the image, which activates animation...
-			document.querySelector('figure img').className = 'sect' + counter;
+			document.querySelector('figure img').className = 'product' + counter;
 			prevCounter = counter;
 		}
 

@@ -66,13 +66,13 @@ figure img {
 }
 
 .product2 {
-    top: 0;
-    left: 0;
+    top: calc(-2250px + 150vh);
+    left: calc(-3000px + 120vw);
 }
 
 .product3{
-    top: 0;
-    left: calc(-3000px + 70vw);
+    top: calc(-2250px + 140vh);
+    left: calc(-3000px + 230vw);
 }
 
 .productt4 {

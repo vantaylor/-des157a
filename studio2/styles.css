@@ -91,8 +91,10 @@ figure img {
     transform: translate(-50%, -50%);
 }
 
-#container:hover + .showing{
+#container:hover .product2 + .showing{
     position: absolute;
+    top: calc(-3024px + 170vh);
+    left: calc(-4032px + 150vw);
     top: -50px;
     left: -50px;
     box-sizing: border-box;

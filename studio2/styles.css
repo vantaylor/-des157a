@@ -91,13 +91,12 @@ figure img {
     transform: translate(-50%, -50%);
 }
 
-#container:hover .product2 + .showing{
-    top: calc(-3024px + 170vh);
-    left: calc(-4032px + 150vw);
+#container:hover + .showing{
+    position: absolute;
+    top: -50px;
+    left: -50px;
     box-sizing: border-box;
     position: absolute;
-    top: 50%;
-    left: 50%;
     background-color: white;
     width: 50vw;
     height: 30vh;
@@ -108,10 +107,10 @@ figure img {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 50vw;
     height: 30vh;
-}
+} 
 
 /* .hidden {
     display: none;

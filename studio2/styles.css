@@ -90,3 +90,55 @@ figure img {
     left: 150%;
     transform: translate(-50%, -50%);
 }
+
+#container:hover .product2 + .showing{
+    top: calc(-3024px + 170vh);
+    left: calc(-4032px + 150vw);
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 50vw;
+    height: 30vh;
+}
+
+.showing {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 50vw;
+    height: 30vh;
+}
+
+/* .hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+#overlay {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 50vw;
+    height: 30vh;
+
+}
+
+#overlay p:hover {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 50vw;
+    height: 30vh;
+} */
+

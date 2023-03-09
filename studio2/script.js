@@ -9,27 +9,26 @@
         let prevCounter = 1;
         let doneResizing;
     
-        //see below for what this function does
+
         resetPagePosition();
     
-        /* Everything in this event handler runs everytime the window 
-        is scrolled just a little bit. Be careful about preformance */
+        /* Event handler is run when user scrolls up and down page*/
         window.addEventListener('scroll', function () {
             pageTop = window.pageYOffset + 300;
             //console.log(pagetop);
     
-            // if the user is scrolling down the page...
+            // if the user is scrolling down
             if (pageTop > postTops[counter]) {
                 counter++;
                 console.log(`scrolling down ${counter}`);
             }
-            // if the user is down the page and scrolling up
+            // if the user is at the bottom of page and scrolls up, reposition to previous
             else if (counter > 1 && pageTop < postTops[counter - 1]) {
                 counter--;
                 console.log(`scrolling up ${counter}`);
             }
     
-            // when the section changes...
+            // when the section changes
             if (counter != prevCounter) {
                 // changes the class name on the image, which activates animation...
                 document.querySelector('figure img').className = 'product' + counter;

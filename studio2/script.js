@@ -37,11 +37,11 @@
     
         }); // end window scroll function
     
-        // this event handler fires while the window is being resized
+        // this event handler runs while the window size changes
         window.addEventListener('resize', function () {
     
             clearTimeout(doneResizing);
-            // this runs after the window has stopped being resized...
+            // this runs after the window has stopped being resized
             doneResizing = setTimeout(function () {
     
                 resetPagePosition();

@@ -9,7 +9,7 @@
     const actionArea = document.getElementById('actions');
     
     const gameData = {
-        dice: ['1die.jpg', '2die.jpg', '3die.jpg', '4die.jpg', '5die.jpg', '6die.jpg'],
+        dice: ['images/1die.jpg', 'images/2die.jpg', 'images/3die.jpg', 'images/4die.jpg', 'images/5die.jpg', 'images/6die.jpg'],
         players: ['player1', 'player2'],
         score: [0, 0],
         roll1: 0,
@@ -50,7 +50,7 @@
         gameData.rollSum = gameData.roll1 + gameData.roll2;
 
         if ( gameData.rollSum == 2 ){
-            game.innerHTML += '<pOh snap! Snake Eyes!</p>';
+            game.innerHTML += '<p>Oh snap! Snake Eyes!</p>';
             gameData.score[gameData.index] = 0;
             gameData.index ? (gameData.index = 0) : (gameData.index = 1);
             setTimeout(setUpTurn, 2000);

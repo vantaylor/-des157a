@@ -19,6 +19,11 @@ img {
     
 }
 
+/* input, label {
+    display: flex;
+    flex-direction: row;
+} */
+
 button { 
     display: flex;
     padding: 10px;

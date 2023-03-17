@@ -10,7 +10,7 @@
     
     const gameData = {
         dice: ['images/1die.png', 'images/2die.png', 'images/3die.png', 'images/4die.png', 'images/5die.png', 'images/6die.png'],
-        players: ['player1', 'player2'],
+        players: ['Little Bao', 'Egg Tart'],
         score: [0, 0],
         roll1: 0,
         roll2: 0,

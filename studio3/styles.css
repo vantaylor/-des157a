@@ -25,11 +25,10 @@ img {
 } */
 
 button { 
-    display: flex;
+    margin: auto;
     padding: 10px;
     border-radius: 10px;
     background-color: pink;
-    justify-content: center;
 }
 
 div {
@@ -37,12 +36,19 @@ div {
 }
 
 #gamecontrol, #score {
-    background-color: aliceblue;
+    background-color: rgb(250, 241, 175);
+    width: 800px;
+    margin: auto;
+
 }
 
 #game {
-    background-color:#eaeaea;
+    background-color:#5c825f;
+    width: 800px;
+    margin: auto;
 }
 #actions {
     background-color: silver;
+    width: 800px;
+    margin: auto;
 }

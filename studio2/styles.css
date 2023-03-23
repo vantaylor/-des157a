@@ -1,6 +1,6 @@
 body {
     background-color: cornsilk;
-    background-image: url(images/border.png);
+    background-image: url(images/background.png);
     font-family: 'Cormorant Garamond', serif;
     line-height: 1.5em;
     font-size: 18px;
@@ -8,20 +8,21 @@ body {
 
 main {
 	padding: 20px;
-    /* width: 1000px; */
+    width: 1000px;
     margin: auto;
+    background-color: white;
 
 }
 
 main div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     /* flex-wrap: wrap; */
     gap: 20px;
 }
 
 h1 {
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Limelight', cursive;
     font-weight: 400;
     font-size: 40px;
     text-align: center;
@@ -29,7 +30,6 @@ h1 {
 }
 
 img {
-    /* display: inline-block; */
     max-width: 100%;
     height: auto;
     border-radius: 50%;
@@ -37,7 +37,9 @@ img {
 }
 
 img:hover {
-    border: peachpuff solid 3px;
+    border: paleturquoise solid 4px;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 button {
@@ -45,7 +47,7 @@ button {
     padding: 15px 20px;
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 
@@ -59,10 +61,10 @@ button {
     opacity: 1;
 }
 
-/*makes background darken/fade when the pop-up modal is activated*/
+/*animation and makes background darken/fade when the pop-up modal is activated*/
 .overlay {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     top: 0;
     left: 0;
     width: 100%;
@@ -76,11 +78,12 @@ button {
 .overlay article {
     box-sizing: border-box;
     background-color: whitesmoke;
+    border: solid pink 2px;
     padding: 20px;
     width: 600px;
     height: 400px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

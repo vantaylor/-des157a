@@ -1,10 +1,10 @@
 body {
-    background-color: black;
+    /* background-color: black; */
     padding: 20px;
     margin: auto;
     font-family: 'Martel Sans', sans-serif;
     font-weight: 400;
-    color: #ffffff
+    color: black;
 
 }
 
@@ -16,6 +16,7 @@ header {
 
 h1 {
     font-size: 50px;
+    color: lightblue;
 }
 
 h2 {
@@ -34,19 +35,13 @@ h2 {
 main {
     /*max-width: 1200px;*/
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    
-}
-
-section {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 150px;    
 }
 
 ul {
     list-style-type: none;
-    text-align: center;
 }
 
 ul li {
@@ -57,7 +52,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: black;
 
 }
 

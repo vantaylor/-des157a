@@ -43,6 +43,8 @@ h1 {
     position: absolute;
     top: 35%;
     left: 5%;
+    max-width: 100%;
+    height: auto;
     
 }
 
@@ -50,12 +52,16 @@ h1 {
     position: absolute;
     top: 30%;
     left: 75%;
+    max-width: 100%;
+    height: auto;
 }
 
 #tangerines {
     position: absolute;
     top: 50%;
     left: 85%;
+    max-width: 100%;
+    height: auto;
 }
 
 main {
@@ -155,6 +161,18 @@ button {
     .column {
         flex: 48%;
         max-width: 48%;
+    }
+
+    #travel {
+        max-width: 25%;
+    }
+
+    #egg-tart {
+        max-width: 25%;
+    }
+
+    #tangerines {
+        max-width: 25%;
     }
 }
 

@@ -23,6 +23,7 @@ h1 {
     font-size: 45px;
     text-align: center;
     color: #8b786d;
+    line-height: 2em;
 }
 
 h2 {
@@ -30,6 +31,10 @@ h2 {
     font-weight: 700;
     font-size: 30px;
     color: #8b786d;
+}
+
+ol li {
+    line-height: 2.5em;
 }
 
 footer {

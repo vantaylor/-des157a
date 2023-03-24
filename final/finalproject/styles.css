@@ -113,9 +113,9 @@ p {
 
 /*animation and makes background darken/fade when the pop-up modal is activated*/
 .overlay {
-    position: absolute;
-    top: 100%;
-    left: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     transition-property: opacity, visibility;

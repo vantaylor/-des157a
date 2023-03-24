@@ -72,19 +72,17 @@ h2 {
 #gallery {
     display: flex;
     flex-wrap: wrap;
-    /* padding: 0 5px; */
-    gap: 4px;
+    gap: 5px;
 }
 
 .column {
     flex: 24%;
     max-width: 24%;
-    /* padding: 0 5px; */
-    gap: 4px;
+    gap: 5px;
 }
 
 .column img {
-    margin-top: 8px;
+    margin-top: 10px;
     vertical-align: middle;
     width: 100%;
 }
@@ -107,7 +105,6 @@ img:hover {
 /*animation and makes background darken/fade when the pop-up modal is activated*/
 .overlay {
     position: absolute;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     top: 100%;
     left: 5%;
     width: 100%;

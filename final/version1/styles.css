@@ -1,0 +1,83 @@
+body {
+    /* font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin: auto;
+    line-height: 2em; */
+}
+
+body, html {
+    height: 100%;
+}
+
+#hero {
+    background-image: url(images/brunch.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    color: #BCD0E2;
+}
+
+#travel {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    
+}
+
+#egg-tart {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+}
+
+#tangerines {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+}
+
+main {
+    padding: 20px;
+    margin: auto;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 5px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}

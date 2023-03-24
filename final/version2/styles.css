@@ -87,9 +87,18 @@ h2 {
     width: 100%;
 }
 
-img:hover {
+#gallery img:hover {
     opacity: 0.5;
     cursor: pointer;
+}
+
+h3 {
+    font-style: italic;
+    color: #698dad;
+}
+
+p {
+    line-height: 2em;
 }
 
 .hidden {
@@ -104,9 +113,9 @@ img:hover {
 
 /*animation and makes background darken/fade when the pop-up modal is activated*/
 .overlay {
-    position: absolute;
-    top: 100%;
-    left: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     transition-property: opacity, visibility;

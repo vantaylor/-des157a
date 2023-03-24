@@ -92,6 +92,15 @@ img:hover {
     cursor: pointer;
 }
 
+h3 {
+    font-style: italic;
+    color: #698dad;
+}
+
+p {
+    line-height: 2em;
+}
+
 .hidden {
     visibility: hidden;
     opacity: 0;

@@ -11,7 +11,7 @@
        eachBtn.addEventListener('click', function(evt){
             evt.preventDefault();
             const thisBtn = evt.target.id;
-            document.getElementById(`product-${thisBtn}`).className = 'overlay showing';
+            document.getElementById(`pic-${thisBtn}`).className = 'overlay showing';
         });
     }
 

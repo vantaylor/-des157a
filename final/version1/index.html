@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -30,7 +32,7 @@
 
         <div id="gallery">
             <div class="column">
-                <img class="open" src="images/tong-sui.jpg" alt="hong kong dessert, tong sui or sweet soup">
+                <img class="open" id="one" src="images/tong-sui.jpg" alt="hong kong dessert, tong sui or sweet soup">
                 <img class="open" src="images/jambalaya.jpg" alt="shrimp jambalaya">
                 <img class="open" src="images/beef-noodles.jpg" alt="Taiwanese Braised Beef Noodle Soup">
                 <img class="open" src="images/dan-dan-noodles.jpg" alt="Dandan Noodles">
@@ -60,6 +62,15 @@
                 <img class="open" src="images/rice-noodles.jpg" alt="rice noodle soup with fish balls">
             </div>
         </div>
+
+        <section id="pic-one" class="overlay hidden">
+            <article>
+                <h3>Tong Sui</h3>
+
+                <p>A variety of tong sui, a Hong Kong seewt soup dessert. Made with Chinese brown sugar stick for the soup base; you can add taro, yams, sweet potatoes, red beans, and many more.</p>
+                <button class="close">&otimes;</button>
+            </article>
+        </section>
     </main>
 </body>
 </html>
